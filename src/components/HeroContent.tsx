@@ -1,3 +1,5 @@
+import ContactForm from "@/components/ContactForm";
+
 export default function HeroContent() {
   return (
     <main className="absolute bottom-8 left-8 z-20 max-w-lg">
@@ -42,9 +44,7 @@ export default function HeroContent() {
           <button className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50 cursor-pointer">
             Наши услуги
           </button>
-          <button className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90 cursor-pointer">
-            Рассчитать стоимость
-          </button>
+          <ContactForm />
         </div>
       </div>
     </main>
