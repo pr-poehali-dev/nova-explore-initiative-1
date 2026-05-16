@@ -8,7 +8,7 @@ export default function Header() {
             <div className="flex items-center gap-4">
               <a
                 href="tel:+79515350350"
-                className="text-white hover:text-neutral-400 transition-colors duration-300 text-2xl font-medium"
+                className="text-white hover:text-neutral-400 transition-colors duration-300 text-base font-medium"
               >
                 +7 951 535-03-50
               </a>
@@ -16,7 +16,7 @@ export default function Header() {
                 href="https://wa.me/79515350350"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xl"
+                className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
               >
                 WA
               </a>
@@ -24,7 +24,7 @@ export default function Header() {
                 href="https://t.me/+79515350350"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xl"
+                className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
               >
                 TG
               </a>
@@ -32,14 +32,14 @@ export default function Header() {
                 href="https://max.ru/+79515350350"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xl"
+                className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
               >
                 MAX
               </a>
             </div>
             <a
               href="mailto:btk2016@inbox.ru"
-              className="text-white hover:text-neutral-400 transition-colors duration-300 text-xl"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 text-base"
             >
               btk2016@inbox.ru
             </a>
