@@ -28,7 +28,7 @@ export default function HeroContent() {
       </main>
 
       {/* Правая часть — теги услуг и кнопка */}
-      <aside className="absolute bottom-8 right-8 z-20 flex flex-col items-end gap-3">
+      <aside className="absolute bottom-32 right-8 z-20 flex flex-col items-end gap-3">
         {["Стандартные перевозки", "Терморежим", "Негабарит", "Опасные грузы", "Догрузы"].map((service) => (
           <span
             key={service}
