@@ -12,7 +12,7 @@ export default function HeroContent() {
           <span className="text-white/90 text-base font-light relative z-10">Батайск и вся Россия — с 2016 года</span>
         </div>
 
-        <h1 className="text-3xl md:text-4xl md:leading-tight tracking-tight font-light text-white mb-4">
+        <h1 className="text-5xl md:text-6xl md:leading-tight tracking-tight font-light text-white mb-4">
           <span className="font-medium">Грузовые</span> перевозки
           <br />
           <span className="font-light tracking-tight text-white">в срок и надёжно</span>
