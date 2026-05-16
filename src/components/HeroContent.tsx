@@ -23,11 +23,11 @@ export default function HeroContent() {
           Собственный автопарк, опытные водители, страхование груза.
         </p>
 
-        <div className="flex flex-col items-start gap-2 mb-4">
+        <div className="flex flex-wrap gap-2 mb-4">
           {["Стандартные перевозки", "Терморежим", "Негабарит", "Опасные грузы", "Догрузы"].map((service) => (
             <span
               key={service}
-              className="px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/80 text-base font-light backdrop-blur-sm w-full text-center"
+              className="px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/80 text-sm font-light backdrop-blur-sm whitespace-nowrap"
             >
               {service}
             </span>
