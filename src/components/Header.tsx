@@ -33,6 +33,12 @@ export default function Header() {
             >
               TG
             </a>
+            <a
+              href="mailto:btk2016@inbox.ru"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 text-xs"
+            >
+              btk2016@inbox.ru
+            </a>
           </div>
         </nav>
       </div>
