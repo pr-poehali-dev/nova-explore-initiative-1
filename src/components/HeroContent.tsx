@@ -11,7 +11,7 @@ export default function HeroContent() {
           }}
         >
           <div className="absolute top-0 left-1 right-1 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent rounded-full" />
-          <span className="text-white/90 text-xs font-light relative z-10">Батайск и вся Россия — с 2016 года</span>
+          <span className="text-white/90 text-base font-light relative z-10">Батайск и вся Россия — с 2016 года</span>
         </div>
 
         {/* Main Heading */}
@@ -22,7 +22,7 @@ export default function HeroContent() {
         </h1>
 
         {/* Description */}
-        <p className="text-xs font-light text-white/70 mb-4 leading-relaxed">
+        <p className="text-base font-light text-white/70 mb-4 leading-relaxed">
           Батайская Транспортная Компания — автомобильные грузоперевозки по Югу России и всей стране.
           Собственный автопарк, опытные водители, страхование груза.
         </p>
@@ -32,7 +32,7 @@ export default function HeroContent() {
           {["Стандартные перевозки", "Терморежим", "Негабарит", "Опасные грузы", "Догрузы"].map((service) => (
             <span
               key={service}
-              className="px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white/80 text-xs font-light backdrop-blur-sm"
+              className="px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white/80 text-base font-light backdrop-blur-sm"
             >
               {service}
             </span>
