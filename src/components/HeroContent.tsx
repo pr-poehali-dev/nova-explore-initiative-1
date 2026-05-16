@@ -25,6 +25,18 @@ export default function HeroContent() {
           Собственный автопарк, опытные водители, страхование груза.
         </p>
 
+        {/* Services */}
+        <div className="flex flex-wrap gap-2 mb-4">
+          {["Стандартные перевозки", "Терморежим", "Негабарит", "Опасные грузы", "Догрузы"].map((service) => (
+            <span
+              key={service}
+              className="px-3 py-1 rounded-full bg-white/10 border border-white/20 text-white/80 text-xs font-light backdrop-blur-sm"
+            >
+              {service}
+            </span>
+          ))}
+        </div>
+
         {/* Buttons */}
         <div className="flex items-center gap-4 flex-wrap">
           <button className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50 cursor-pointer">
