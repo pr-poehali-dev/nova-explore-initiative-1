@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="absolute top-0 left-0 right-0 z-11 p-6">
       <div className="flex justify-between items-center">
-        <div className="text-white text-4xl uppercase tracking-wide font-bold">БТК</div>
+        <div className="text-white text-6xl uppercase tracking-wide font-bold">БТК</div>
         <nav className="flex items-center gap-6">
           <a
             href="#contact"
