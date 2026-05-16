@@ -6,14 +6,14 @@ export default function Header() {
         <nav className="flex items-center gap-6">
           <a
             href="#services"
-            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
+            className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-base"
           >
             Услуги
           </a>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <a
               href="tel:+79515350350"
-              className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm font-medium"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 text-base font-medium"
             >
               +7 951 535-03-50
             </a>
@@ -21,7 +21,7 @@ export default function Header() {
               href="https://wa.me/79515350350"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xs"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
             >
               WA
             </a>
@@ -29,13 +29,13 @@ export default function Header() {
               href="https://t.me/+79515350350"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xs"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
             >
               TG
             </a>
             <a
               href="mailto:btk2016@inbox.ru"
-              className="text-white hover:text-neutral-400 transition-colors duration-300 text-xs"
+              className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm"
             >
               btk2016@inbox.ru
             </a>
