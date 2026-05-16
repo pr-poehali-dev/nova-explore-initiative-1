@@ -34,6 +34,14 @@ export default function Header() {
               >
                 TG
               </a>
+              <a
+                href="https://max.ru/+79515350350"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xl"
+              >
+                MAX
+              </a>
             </div>
             <a
               href="mailto:btk2016@inbox.ru"
