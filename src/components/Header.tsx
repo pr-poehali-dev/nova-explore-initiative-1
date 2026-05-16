@@ -5,10 +5,10 @@ export default function Header() {
         <div className="text-white text-4xl uppercase tracking-wide font-bold">БТК</div>
         <nav className="flex items-center gap-6">
           <a
-            href="#services"
+            href="#contact"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-xl"
           >
-            Услуги
+            Контакты
           </a>
           <div className="flex flex-col items-end gap-1">
             <div className="flex items-center gap-4">
