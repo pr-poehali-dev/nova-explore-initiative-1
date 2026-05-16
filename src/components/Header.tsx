@@ -3,7 +3,7 @@ export default function Header() {
     <header className="absolute top-0 left-0 right-0 z-11 p-6">
       <div className="flex justify-between items-start">
         <div className="flex flex-col gap-1">
-          <div className="text-white text-8xl uppercase tracking-wide font-bold leading-none">БТК</div>
+          <div className="text-white text-5xl uppercase tracking-wide font-bold leading-none">БТК</div>
           <div className="flex flex-col gap-0.5">
             <div className="flex items-center gap-4">
               <a
